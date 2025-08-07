@@ -15,7 +15,7 @@ An end-to-end solution that leverages machine learning and natural language proc
 
 ---
 
-## 🎯 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -33,15 +33,11 @@ An end-to-end solution that leverages machine learning and natural language proc
 3. **Enter your Query**: For example, "Plot monthly user sign-ups against marketing spend."
 4. **View Your Chart**: The tool will display the visualization in a new window or embed it in the notebook.
 
-### Example
-on run_viz_tool.py --file data/sales.csv "Show quarterly revenue trends"
-```
 
-*Automatically generates a line chart of `Quarter` vs. `Revenue`.*
 
----
 
-## ⚙️ How It Works
+
+##  How It Works
 
 1. **Data Ingestion**: Reads the CSV into a Pandas DataFrame.
 2. **Axis Prediction**: Sends your query and DataFrame column list to a LLaMA-based model, which returns the best-fit `x` and `y` columns.
